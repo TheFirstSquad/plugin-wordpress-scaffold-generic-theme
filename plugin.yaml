@@ -1,31 +1,69 @@
-name: plugin-wordpress-scaffold-generic-theme
+name: wordpress-scaffold-generic-theme
 description: Generate a generic structure for a Wordpress Theme
-display-name: plugin-wordpress-scaffold-generic-theme
+display-name: Wordpress Scaffold Generic Theme
 picture: plugin.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
-compatibility:
-  - java
-  - spring
+compatibility: 
+  - "PHP"
+  - Wordpress  
 about: docs/about.md
 usage: docs/usage.md
 use-case: docs/use-case.md
 implementation: docs/implementation.md
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies
-  - "Api"
+  - "Web"
 types:
   - app
 inputs:
-  - label: Input Example
+  - label: Theme Name
     type: text
-    name: example
-    default: any text
-  - label: Example of number
-    type: int
-    name: any_number
-    default: "10"
-  - label: Example of list
-    type: multiselect
-    name: any_list
-    items:
-      - item1
-      - item2
+    name: wp_theme_name
+    default: "Theme Stackspot Blog"
+  - label: Theme URI
+    type: text
+    name: wp_theme_uri
+    default: "https://www.your-theme-site.com/"
+  - label: Version
+    type: text
+    name: wp_theme_version
+    default: "1.0.0"
+  - label: Description
+    type: text
+    name: wp_theme_description
+    default: "Theme Stackspot Blog - Description"
+  - label: Tags
+    type: text
+    name: wp_theme_tags
+    default: "blog, responsive"
+  - label: Author
+    type: text
+    name: wp_theme_author
+    default: "Author Name"
+  - label: Author URI
+    type: text
+    name: wp_theme_author_uri
+    default: https://www.your-site.com/
+  - label: PHP Requires
+    type: text
+    name: wp_theme_php_requires
+    default: "~7.4"
+  - label: Wordpress Compatible
+    type: text
+    name: wp_theme_compatible
+    default: "~5.0"
+  - label: License
+    type: text
+    name: wp_theme_license
+    default: "GNU General Public License v3 or later"
+  - label: License URI
+    type: text
+    name: wp_theme_license_uri
+    default: "http://www.gnu.org/licenses/gpl-3.0.html"
+  - label: Template Name
+    type: text
+    name: wp_theme_template_name
+    default: wp_stackspot_template_blog
+  - label: Text Domain
+    type: text
+    name: wp_theme_text_domain
+    default: stackspot-template-blog

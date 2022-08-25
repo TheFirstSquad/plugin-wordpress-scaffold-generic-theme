@@ -1,0 +1,18 @@
+/*!
+Theme Name: {{ inputs.wp_theme_name }}
+Theme URI: {{ inputs.wp_theme_uri }}
+Version: {{ inputs.wp_theme_version }}
+Description: {{ inputs.wp_theme_description }}
+Tags: {{ inputs.wp_theme_tags }}
+Author: {{ inputs.wp_theme_author }}
+Author URI: {{ inputs.wp_theme_author_uri }}
+Requires PHP: {{ inputs.wp_theme_php_requires }}
+Tested up to: {{ inputs.wp_theme_compatible }}
+License: {{ inputs.wp_theme_license }}
+License URI: {{ inputs.wp_theme_license_uri }}
+Template: {{ inputs.wp_theme_template_name }}
+Text Domain: {{ inputs.wp_theme_text_domain }}
+
+{{ inputs.theme_name }} WordPress Theme, Copyright 2022
+{{ inputs.theme_name }} is distributed under the terms of the {{ inputs.license }}
+*/
