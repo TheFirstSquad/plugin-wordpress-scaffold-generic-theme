@@ -42,7 +42,7 @@ inputs:
   - label: Author URI
     type: text
     name: wp_theme_author_uri
-    default: https://www.your-site.com/
+    default: "https://www.your-site.com/"
   - label: PHP Requires
     type: text
     name: wp_theme_php_requires
@@ -59,11 +59,7 @@ inputs:
     type: text
     name: wp_theme_license_uri
     default: "http://www.gnu.org/licenses/gpl-3.0.html"
-  - label: Template Name
-    type: text
-    name: wp_theme_template_name
-    default: wp_stackspot_template_blog
-  - label: Text Domain
-    type: text
-    name: wp_theme_text_domain
-    default: stackspot-template-blog
+
+computedInputs:
+  base_path: "{% if global_computed_inputs.src_base_path is defined and global_computed_inputs.src_base_path != '' %}{{global_computed_inputs.src_base_path}}{% else %}{{'.'}}{% endif %}"
+  wp_theme_name_lowercase: "{{ wp_theme_name.lower().replace(' ', '-') }}"
