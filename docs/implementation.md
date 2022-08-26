@@ -23,6 +23,43 @@ The plugin will create the initial folder structure for a theme, inside the Word
 
 The purpose of this plugin is just to create a base structure for its development, all the theme logic will have to be implemented later. 
 
+#### File Structure
+```bash
+│   404.php
+│   archive.php
+│   comments.php
+│   footer.php
+│   front-page.php
+│   functions.php
+│   header.php
+│   index.php
+│   page.php
+│   README.txt
+│   rtl.css
+│   screenshot.png
+│   search.php
+│   searchform.php
+│   sidebar.php
+│   single.php
+│   style.css
+│
+├───assets
+│   ├───css
+│   ├───fonts
+│   ├───images
+│   └───js
+├───classes
+├───inc
+├───template-parts
+│   ├───footer
+│   ├───header
+│   ├───navigation
+│   ├───page
+│   └───post
+└───templates
+```
+
+``style.css``
 ```php
 <?php
 /*!
