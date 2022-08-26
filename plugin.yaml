@@ -1,5 +1,5 @@
 name: wordpress-scaffold-generic-theme
-description: Generate a generic structure for a Wordpress Theme
+description: "Stack Wordpress :: Plugin :: Generate a generic structure for a Wordpress Theme"
 display-name: Wordpress Scaffold Generic Theme
 picture: plugin.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
