@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lucasapoena",
+      "name": "Lucas Apoena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135553?v=4",
+      "profile": "https://www.lucasapoena.eti.br/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "andreevilela",
+      "name": "andreevilela",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54727503?v=4",
+      "profile": "https://github.com/andreevilela",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "plugin-wordpress-scaffold-generic-theme",
+  "projectOwner": "TheFirstSquad",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
