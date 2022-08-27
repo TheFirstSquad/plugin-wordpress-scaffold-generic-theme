@@ -63,21 +63,21 @@ The purpose of this plugin is just to create a base structure for its developmen
 ```php
 <?php
 /*!
-Theme Name: {{ inputs.wp_theme_name }}
-Theme URI: {{ inputs.wp_theme_uri }}
-Version: {{ inputs.wp_theme_version }}
-Description: {{ inputs.wp_theme_description }}
-Tags: {{ inputs.wp_theme_tags }}
-Author: {{ inputs.wp_theme_author }}
-Author URI: {{ inputs.wp_theme_author_uri }}
-Requires PHP: {{ inputs.wp_theme_php_requires }}
-Tested up to: {{ inputs.wp_theme_compatible }}
-License: {{ inputs.wp_theme_license }}
-License URI: {{ inputs.wp_theme_license_uri }}
+Theme Name: Theme Stackspot Blog
+Theme URI: https://www.your-theme-site.com/
+Version: 1.0.0
+Description: Theme Stackspot Blog - Description
+Tags: blog, responsive
+Author: Author Name
+Author URI: https://www.your-site.com/
+Requires PHP: ~7.4
+Tested up to: 6.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-{{ inputs.wp_theme_name }} WordPress Theme, Copyright 2022
-{{ inputs.wp_theme_name }} is distributed under the terms of the {{ inputs.wp_theme_license }}
+Theme Stackspot Blog WordPress Theme, Copyright 2022
+Theme Stackspot Blog is distributed under the terms of the GNU General Public License v3 or later
 */
 ```
 

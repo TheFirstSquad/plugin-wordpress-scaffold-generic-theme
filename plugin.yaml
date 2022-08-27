@@ -50,7 +50,7 @@ inputs:
   - label: Wordpress Compatible
     type: text
     name: wp_theme_compatible
-    default: "~5.0"
+    default: "6.0"
   - label: License
     type: text
     name: wp_theme_license
